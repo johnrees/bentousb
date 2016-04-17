@@ -134,10 +134,6 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
-		<key>NvidiaSingle</key>
-		<false/>
-		<key>ig-platform-id</key>
-		<string>0x19120000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
