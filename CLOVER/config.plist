@@ -35,7 +35,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nvda_drv=1</string>
+		<string>dart=0 nvda_drv=1 GraphicsEnabler=No IGPEnabler=No -f -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
