@@ -154,6 +154,20 @@
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
+				<key>Name</key>
+				<string>AppleTyMCEDriver</string>
+				<key>Find</key>
+				<data>
+				cgoATWFjUHJvNCwxAE1hY1BybzUsMQBY
+				</data>
+				<key>Replace</key>
+				<data>
+				cgoAAAAAAAAAAAAAAAAAAAAAAAAAAABY
+				</data>
+				<key>Comment</key>
+				<string>Patch ECC Memory in MacPro SMBIOS</string>
+			</dict>
+			<dict>
 				<key>Comment</key>
 				<string>Skylake APIC fix, discovered by Pike R. Alpha</string>
 				<key>Find</key>
@@ -237,7 +251,7 @@
 			</array>
 		</dict>
 		<key>ProductName</key>
-		<string>iMac14,2</string>
+		<string>MacPro5,1</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
