@@ -78,9 +78,11 @@
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
-			<false/>
+			<true/>
 			<key>Inject</key>
-			<false/>
+			<true/>
+			<key>HighCurrent</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
